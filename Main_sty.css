@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header nav{
+    background-color: black;
+    width: 100%;
+}
+header nav a{
+    text-decoration: none;
+}
+header nav a button.prof{
+    margin-left: 3%;
+}
+header nav a button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Zilla Slab', serif;
+    font-size: 125%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+    cursor: pointer;
+}
+header nav a button:active{
+    background-color: transparent;
+}
+header nav a button:target{
+    background-color: transparent;
+}
+header nav img{
+    height: 38px;
+    margin-left: 40%;
+    margin-bottom: -1%;
+}
+div.profile p{
+    margin-left: 45%;
+    margin-top: 5%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 282%;
+    color: black;
+}
+span.head{
+    display: flex;
+    align-items: center;
+}
+span.head span.prof{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+span.head span.prof img.den{
+    width: 60%;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 7%;
+    margin-top: -3%;
+}
+span.head span.prof p.prof_txt{
+    font-family: 'Zilla Slab', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 3%;
+}
+div.curr p{
+    margin-left: 41%;
+    margin-top: 12%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 38px;
+    color: black;
+}
+div.curric{
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+}
+div.curric p{
+    font-family: 'Zilla Slab', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+div.curric img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+div#portafolium p{  
+    margin-left: 39%;
+    margin-top: 12%;
+    margin-bottom: 6%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 45px;
+    color: black;
+}
+div.des p{
+    margin-left: 39%;
+    margin-top: 5%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    color: black;
+}
+span.head span.social a img.ig{
+    border-radius: 22%;
+    height: 50px;
+    width: 50px;
+}
+span.head span.social a img.ig:hover{
+    animation: move .4s;
+}
+@keyframes move{
+    0%{
+        transform: scale(1) rotate(0deg);
+    }
+    25%{
+        transform: scale(1.25) rotate(90deg);
+    }
+    50%{
+        transform: scale(1.5) rotate(180deg);
+    }
+    75%{
+        transform: scale(1.25) rotate(270deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
+}
+span.head span.social a img.fb{
+    height: 50px;
+    width: 50px;
+}
+span.head span.social a img.fb:hover{
+    animation: move .4s;
+}
+span.head span.social a img.tt{
+    height: 50px;
+    width: 50px;
+}
+span.head span.social a img.tt:hover{
+    animation: move .4s;
+}
+span.head span.social a{
+    text-decoration: none;
+}

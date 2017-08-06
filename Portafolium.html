@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portafolios</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="Port_sty.css">
+</head>
+<body>
+	
+    <header>
+        <nav id="profile">
+            <a href="Main.html">
+                <button class="prof">
+                    PERFIL
+                </button>
+            </a>
+            <a href="Portafolium.html">
+                <button>
+                    PORTAFOLIOS
+                </button>
+            </a>
+            <a href="Contact.html">
+                <button>
+                    CONTACTO
+                </button>
+            </a>
+            <img src="http://denhyma.businesscatalyst.com/images/svg%20pegado%20358x56.svg" alt="">
+        </nav>
+    <div class="portafolium">
+        <p>
+            PORTAFOLIOS
+        </p>
+    </div>
+    </header>
+
+    <main id="prin">
+		
+	
+		<section v-masonry transition-duration="0.4s" class="row" >
+
+			<article v-masonry-tile class="col-xs-12 col-md-4 col-lg-4" v-for='photo in photos' >
+					<img class="card" v-bind:src="photo.URL" alt="">
+                    
+			</article>
+		</section>
+
+	</main>
+
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
