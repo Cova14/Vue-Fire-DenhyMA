@@ -52,9 +52,7 @@ div.portafolium p{
 }
 
 img.card{
-	width: 100%;
-    max-width: 100%;
-    min-width: 100%;
+	width: 67vh;
 }
 p.text{
     font-family: 'Roboto', sans-serif;
