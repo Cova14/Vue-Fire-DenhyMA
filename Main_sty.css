@@ -94,45 +94,14 @@ div.curric img{
     margin-left: 10%;
     margin-right: 10%;
 }
-span.head span.social a img.ig{
-    border-radius: 22%;
-    height: 50px;
-    width: 50px;
-}
-span.head span.social a img.ig:hover{
-    animation: move .4s;
-}
-@keyframes move{
-    0%{
-        transform: scale(1) rotate(0deg);
+@media only screen (max width: 480px)
+{
+    header nav{
+        background-color: black;
+        width: 100%;
     }
-    25%{
-        transform: scale(1.25) rotate(90deg);
+    header nav a button{
+        display: none;
+        
     }
-    50%{
-        transform: scale(1.5) rotate(180deg);
-    }
-    75%{
-        transform: scale(1.25) rotate(270deg);
-    }
-    100%{
-        transform: scale(1) rotate(360deg);
-    }
-}
-span.head span.social a img.fb{
-    height: 50px;
-    width: 50px;
-}
-span.head span.social a img.fb:hover{
-    animation: move .4s;
-}
-span.head span.social a img.tt{
-    height: 50px;
-    width: 50px;
-}
-span.head span.social a img.tt:hover{
-    animation: move .4s;
-}
-span.head span.social a{
-    text-decoration: none;
 }
